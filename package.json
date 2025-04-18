@@ -1,29 +1,30 @@
 {
   "name": "create-exbackend-app",
-  "version": "1.0.3",
+  "version": "1.0.6",
   "description": "A beautiful Express.js CLI scaffold like Vite",
   "main": "index.js",
   "bin": {
     "create-exbackend-app": "index.js"
   },
   "keywords": [
-  "express",
-  "cli",
-  "scaffold",
-  "create express app",
-  "nodejs cli",
-  "typescript",
-  "express boilerplate"
+    "express",
+    "cli",
+    "scaffold",
+    "create express app",
+    "nodejs cli",
+    "typescript",
+    "express boilerplate"
   ],
   "repository": {
-  "type": "git",
-  "url": "https://github.com/your-username/create-express-app"
+    "type": "git",
+    "url": "https://github.com/Mashruf-Ahmed55/create-exbackend-app"
   },
   "author": "Mashruf Ahmed",
   "license": "MIT",
   "type": "module",
   "dependencies": {
     "chalk": "^5.4.1",
+    "create-exbackend-app": "^1.0.5",
     "fs-extra": "^11.3.0",
     "gradient-string": "^3.0.0",
     "inquirer": "^12.5.2",
