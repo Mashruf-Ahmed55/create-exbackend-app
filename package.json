@@ -1,10 +1,9 @@
 {
   "name": "create-exbackend-app",
   "version": "1.0.6",
-  "description": "A beautiful Express.js CLI scaffold like Vite",
-  "main": "index.js",
+  "description": "A beautiful Express.js CLI scaffold  Express backend apps with Prisma or Mongoose",
   "bin": {
-    "create-exbackend-app": "index.js"
+    "create-exbackend-app": "./bin/index.js"
   },
   "keywords": [
     "express",
@@ -13,7 +12,10 @@
     "create express app",
     "nodejs cli",
     "typescript",
-    "express boilerplate"
+    "express boilerplate",
+    "backend",
+    "prisma",
+    "mongoose"
   ],
   "repository": {
     "type": "git",
@@ -28,10 +30,6 @@
     "fs-extra": "^11.3.0",
     "gradient-string": "^3.0.0",
     "inquirer": "^12.5.2",
-    "ora": "^8.2.0",
-    "prompts": "^2.4.2"
-  },
-  "devDependencies": {
-    "swc-node": "^1.0.0"
+    "ora": "^8.2.0"
   }
 }
